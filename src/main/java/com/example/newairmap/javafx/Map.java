@@ -17,7 +17,14 @@ public class Map extends Canvas {
     }
 
     public void drawCircle(){
+        int mittelpunktx = 300;
+        int mittelpunkty = 300;
+        int radius = 20;
 
+        context.setLineWidth(2.0);
+        context.setStroke(Color.BLACK);
+        context.setFill(Color.PURPLE);
+        context.fillOval(mittelpunktx,mittelpunkty,radius,radius);
 
     }
 }
